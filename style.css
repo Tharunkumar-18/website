@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+    background: linear-gradient(to left bottom, blue, pink , blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: darkgreen
+}
+
+.joke{
+    margin: 20px;
+}
+.container{
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 85%;
+    box-shadow: 4px 4px 5px hsla(0, 0%, 0%, 0.573);
+    text-shadow: 4px 4px 5px hsla(0, 0%, 0%, 0.573);
+}
